@@ -1,26 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44899fd4-ed56-4775-ab26-6b9cdfd62635" name="Default Changelist" comment="" />
+    <list default="true" id="44899fd4-ed56-4775-ab26-6b9cdfd62635" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/chapter5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/BasicAnntation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/DependTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/IgnoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/TimeOutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/suite/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/suite/Pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/java/com/course/testng/thread/ThreadOnXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/resources/groupssuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/resources/suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter5/src/main/resources/thread.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kmGuZ0v1GZrhjMek7781PM7ECd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager" selected="TestNG.TimeOutTest">
+    <configuration name="DataProvider.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.DataProvider" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.TimeOutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeOutTest.timeoutFailed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.TimeOutTest" />
+      <option name="METHOD_NAME" value="timeoutFailed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeOutTest.timeoutSuccess" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.TimeOutTest" />
+      <option name="METHOD_NAME" value="timeoutSuccess" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/apple/workspace/TestNgStusy/chapter5/src/main/resources/thread.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="chapter5" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/chapter5/src/main/resources/thread.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TimeOutTest" />
+        <item itemvalue="TestNG.TimeOutTest.timeoutFailed" />
+        <item itemvalue="TestNG.TimeOutTest.timeoutSuccess" />
+        <item itemvalue="TestNG./Users/apple/workspace/TestNgStusy/chapter5/src/main/resources/thread.xml" />
+        <item itemvalue="TestNG.DataProvider.test4" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,10 +169,64 @@
       <option name="presentableId" value="Default" />
       <updated>1606298576340</updated>
       <workItem from="1606298578251" duration="16000" />
+      <workItem from="1606298887315" duration="27557000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Inspections" timestamp="1606471762307">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1606471762307" />
+    <state x="424" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606790700084">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="424" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1606790700084" />
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1606792557094">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606792557094" />
+    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1606792557093">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1606792557093" />
+    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1606792557093">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1606792557093" />
+    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1606792557093">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1606792557093" />
+    <state width="1398" height="449" key="GridCell.Tab.1.bottom" timestamp="1606389921108">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="449" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1606389921108" />
+    <state width="1398" height="449" key="GridCell.Tab.1.center" timestamp="1606389921107">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="449" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1606389921107" />
+    <state width="1398" height="449" key="GridCell.Tab.1.left" timestamp="1606389921107">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="449" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1606389921107" />
+    <state width="1398" height="449" key="GridCell.Tab.1.right" timestamp="1606389921108">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="449" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1606389921108" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1606373828753">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606373828753" />
+    <state x="97" y="165" key="new project wizard" timestamp="1606304587318">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="97" y="165" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1606304587318" />
   </component>
 </project>

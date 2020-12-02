@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test-thread" parallel="tests" thread-count="3">
+    <!--    methods：方法级别的
+            classes：类级别的
+            tests：test级别的
+    -->
+    <test name="thread">
+        <classes name="t1">
+            <class name="com.course.testng.thread.ThreadOnXml"/>
+            <class name="com.course.testng.BasicAnntation"/>
+        </classes>
+    </test>
+
+    <test name="thread1">
+        <classes name="t2">
+            <class name="com.course.testng.BasicAnntation"/>
+        </classes>
+    </test>
+</suite>
