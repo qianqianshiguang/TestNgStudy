@@ -1,0 +1,26 @@
+[
+  {
+    "description": "不带参数的get方法",
+    "request": {
+      "uri": "/getnoparam",
+      "method": "get"
+    },
+    "response": {
+      "text": "这个方法没有带参数呦"
+    }
+  },
+  {
+    "description": "带参数的get方法",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三又回来了！！！"
+    }
+  }
+]

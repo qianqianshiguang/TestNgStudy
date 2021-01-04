@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: mytest
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.105.34.24:3306/temo-server?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations:
+    - mapping/*
+  type-aliases-package: com.course
+  configuration:
+    map-underscore-to-camel-case: true
+
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0.0.0
+  application-description: springfox swagger 3.0整合Demo
+  try-host: http://localhost:${server.port}
+
+#logging:
+#  file:
+#    path: /logs/mylog.log

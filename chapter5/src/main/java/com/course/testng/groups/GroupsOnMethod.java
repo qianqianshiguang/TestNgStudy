@@ -42,7 +42,7 @@ public class GroupsOnMethod {
         System.out.println("客户端运行之前运行的组");
     }
 
-    @AfterGroups(   "client")
+    @AfterGroups("client")
     public void afterGroupsClient() {
         System.out.println("客户端运行之后运行的组");
     }

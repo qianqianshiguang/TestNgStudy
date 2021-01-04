@@ -1,0 +1,80 @@
+2020-12-29 15:02:45.154 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:02:45.168 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:02:45.175 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:02:45.175  INFO 28779 --- [http-nio-8081-exec-4] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:02:45.260 DEBUG 28779 --- [http-nio-8081-exec-6] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:02:45.262 DEBUG 28779 --- [http-nio-8081-exec-6] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:02:45.265 DEBUG 28779 --- [http-nio-8081-exec-6] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:02:45.265  INFO 28779 --- [http-nio-8081-exec-6] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:04:28.579 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:04:28.580 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:04:28.582 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:04:28.583  INFO 28779 --- [http-nio-8081-exec-3] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:04:28.670 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:04:28.671 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:04:28.672 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:04:28.672  INFO 28779 --- [http-nio-8081-exec-4] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:07:51.438 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:07:51.441 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:07:51.446 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:07:51.447  INFO 28779 --- [http-nio-8081-exec-10] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:07:51.518 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:07:51.519 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:07:51.520 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:07:51.521  INFO 28779 --- [http-nio-8081-exec-2] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:08:39.462 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:08:39.464 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:08:39.471 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:08:39.471  INFO 28779 --- [http-nio-8081-exec-9] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:08:51.417 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:08:51.421 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:08:51.436 DEBUG 28779 --- [http-nio-8081-exec-10] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:08:51.436  INFO 28779 --- [http-nio-8081-exec-10] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:10:21.113 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:10:21.114 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:10:21.120 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:10:21.120  INFO 28779 --- [http-nio-8081-exec-7] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:11:00.997 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:11:01.004 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:11:01.006 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:11:01.006  INFO 28779 --- [http-nio-8081-exec-8] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:13:42.908 DEBUG 28779 --- [http-nio-8081-exec-5] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:13:42.909 DEBUG 28779 --- [http-nio-8081-exec-5] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:13:42.919 DEBUG 28779 --- [http-nio-8081-exec-5] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:13:42.919  INFO 28779 --- [http-nio-8081-exec-5] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:15:29.633 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:15:29.634 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:15:29.636 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:15:29.637  INFO 28779 --- [http-nio-8081-exec-7] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:18:25.163 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:18:25.163 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:18:25.167 DEBUG 28779 --- [http-nio-8081-exec-3] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:18:25.167  INFO 28779 --- [http-nio-8081-exec-3] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:18:30.208 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:18:30.209 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:18:30.210 DEBUG 28779 --- [http-nio-8081-exec-4] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:18:30.210  INFO 28779 --- [http-nio-8081-exec-4] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:18:41.714 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:18:41.726 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:18:41.733 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:18:41.733  INFO 28779 --- [http-nio-8081-exec-1] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:18:46.774 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:18:46.776 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:18:46.779 DEBUG 28779 --- [http-nio-8081-exec-2] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:18:46.780  INFO 28779 --- [http-nio-8081-exec-2] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:19:58.029 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:19:58.030 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:19:58.032 DEBUG 28779 --- [http-nio-8081-exec-9] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:19:58.032  INFO 28779 --- [http-nio-8081-exec-9] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:20:08.076 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:20:08.077 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:20:08.078 DEBUG 28779 --- [http-nio-8081-exec-1] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:20:08.078  INFO 28779 --- [http-nio-8081-exec-1] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)
+2020-12-29 15:20:29.337 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : ==>  Preparing: INSERT INTO user (userId, userName, password, email,status) VALUES (?, ?, ?, ?,?) 
+2020-12-29 15:20:29.337 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : ==> Parameters: null, guoqing(String), 123456(String), 253758897@qq.com(String), null
+2020-12-29 15:20:29.354 DEBUG 28779 --- [http-nio-8081-exec-7] c.e.demo.mapper.UserMapper.addUser       : <==    Updates: 1
+2020-12-29 15:20:29.355  INFO 28779 --- [http-nio-8081-exec-7] c.e.demo.controller.UserController       : ****添加用户User(id=null, userId=null, userName=guoqing, password=123456, email=253758897@qq.com, status=null)
+2020-12-29 15:20:39.394 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : ==>  Preparing: UPDATE user SET userName = ? , password = ?, email = ?, status = ? WHERE userId = ? 
+2020-12-29 15:20:39.397 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : ==> Parameters: wangwu(String), 654321(String), null, null, 1104(String)
+2020-12-29 15:20:39.399 DEBUG 28779 --- [http-nio-8081-exec-8] c.e.demo.mapper.UserMapper.updateUser    : <==    Updates: 1
+2020-12-29 15:20:39.400  INFO 28779 --- [http-nio-8081-exec-8] c.e.demo.controller.UserController       : ****修改用户User(id=null, userId=1104, userName=wangwu, password=654321, email=null, status=null)

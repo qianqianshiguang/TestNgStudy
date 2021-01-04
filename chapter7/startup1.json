@@ -1,0 +1,11 @@
+[
+  {
+    "description": "测试moco启动",
+    "request": {
+      "uri": "/moco"
+    },
+    "response": {
+      "text": "启动成功了呦"
+    }
+  }
+]

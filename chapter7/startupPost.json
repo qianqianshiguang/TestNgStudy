@@ -1,0 +1,27 @@
+[
+  {
+    "description": "不带参数的post方法",
+    "request": {
+      "uri": "/postnoparam",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个不带参数的post方法"
+    }
+  },
+  {
+    "description": "带参数的post方法",
+    "request": {
+      "uri": "/postwithparam",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三回来了哈哈哈！！！"
+    }
+
+  }
+]

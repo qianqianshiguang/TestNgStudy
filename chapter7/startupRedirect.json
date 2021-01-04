@@ -1,0 +1,28 @@
+[
+  {
+    "description": "重定向到百度",
+    "request": {
+      "uri": "/getRedirect",
+      "method": "get"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向到指定路径",
+    "request": {
+      "uri": "/getRedirect/topath",
+      "method": "get"
+    },
+    "redirectTo": "/get/topath"
+  },
+  {
+    "description": "指定路径",
+    "request": {
+      "uri": "/get/topath",
+      "method": "get"
+    },
+    "response": {
+      "text": "重定向成功了呀"
+    }
+  }
+]

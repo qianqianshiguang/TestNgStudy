@@ -1,0 +1,68 @@
+[
+  {
+    "description": "获取cookies信息的get请求",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "cookie": "123456"
+
+      },
+      "text": "cookies信息返回成功"
+    }
+  },
+  {
+    "description": "这是一个带着cookies信息的get方法",
+    "request": {
+      "uri": "/getwithcookies",
+      "method": "get",
+      "cookies": {
+        "cookie": "123456"
+      }
+    },
+    "response": {
+      "text": "这是一个带着cookies信息的get方法"
+    }
+  },
+  {
+    "description": "这是一个带着cookies信息的post方法,传参forms表单格式",
+    "request": {
+      "uri": "/postwithcookies",
+      "method": "post",
+      "cookies": {
+        "cookie": "123456"
+      },
+      "forms": {
+        "name": "huhansan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "我胡汉三还在，哈哈哈"
+    }
+  },
+  {
+    "description": "这是一个带着cookies信息的post方法，传参json格式",
+    "request": {
+      "uri": "/postwithcookiesjson",
+      "method": "post",
+      "cookies": {
+        "cookie": "123456"
+      },
+      "json": {
+        "name": "huhansan",
+        "age": 18
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "code": 0,
+        "res": "success",
+        "text": "我胡汉三还在，哈哈哈"
+      }
+    }
+  }
+]
